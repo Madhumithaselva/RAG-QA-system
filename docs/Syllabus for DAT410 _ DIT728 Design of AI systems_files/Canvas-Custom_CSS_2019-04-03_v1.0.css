@@ -1,0 +1,32 @@
+/* Version 2019-04-03 */
+/* Added code for better display of threaded discussions */
+/* Hugo Landgren, hugo.landgren@chalmers.se*/
+
+.reset_course_content_button {
+    display: none;
+}
+
+/* Start code for threaded dicussions */
+.discussion-entries .entry {  
+	margin-left: 1px; padding-left: 7px; border-left: solid #006C5C 16px 
+}
+.discussion-entries .entry .entry-content {
+	padding-left:0px !important;
+}
+.replies { 
+	padding-left: 7px; border-left: solid #207e70 16px; 
+}
+.replies .entry {
+	 padding-left: 0px; 
+}
+.replies .replies {
+	border-left-color: #61a59b
+}
+.replies .replies .replies {
+	border-left-color: #87bab3
+}
+/* End code for threaded discussions */
+
+@media print { a:link:after, a:visited:after { content: none; }}
+
+
