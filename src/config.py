@@ -11,10 +11,10 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 # Settings — change these for experiments
 CHUNK_SIZE = 400
 CHUNK_OVERLAP = 50
-TOP_K = 4
+TOP_K = 6
 DATA_FOLDER = "data/"
 VECTORSTORE_FOLDER = "vectorstore/"
-MODEL_NAME = "llama3-8b-8192"
+MODEL_NAME = "llama-3.3-70b-versatile" #"llama3-8b-8192"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 # Debug check
