@@ -35,6 +35,7 @@ Generated Answer
 # Project Structure
 ```
 RAG-mini-project/
+
 │
 ├── data/
 │   └── Sample PDF documents
