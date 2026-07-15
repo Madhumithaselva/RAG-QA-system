@@ -1,5 +1,5 @@
 # RAG Course QA system
-A Retrival-Augmented Generation(RAG) system that answers questions about a university course,grounded strictly in official course materials (syllabus, lecture slides, instructions) to reduce hallucination compared to a standard LLM.
+A **Retrival-Augmented Generation(RAG)** system that answers questions about a university course,grounded strictly in official course materials (syllabus, lecture slides, instructions) to reduce hallucination compared to a standard LLM.
 
 ## Project Overview
 Traditional LLMs can generate answers but may hallucinate when they do not have access to specific domain knowledge.
@@ -62,6 +62,7 @@ RAG-mini-project/
 │
 └── README.md
 ```
+
 ---
 
 ## Technologies used
@@ -81,7 +82,8 @@ Clone the repository:
 - git clone <repo url>
 - cd RAG-mini-project
 - Install required packages:
-    bash
+  
+  bash
   pip install -r requirements.txt
 
 ## Environment configuration
