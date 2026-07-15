@@ -1,7 +1,7 @@
 # RAG Course QA system
 A Retrival-Augmented Generation(RAG) system that answers questions about a university course,grounded strictly in official course materials (syllabus, lecture slides, instructions) to reduce hallucination compared to a standard LLM.
 
-# Project Overview
+## Project Overview
 Traditional LLMs can generate answers but may hallucinate when they do not have access to specific domain knowledge.
 This project implements a RAG pipeline where:
   1. Documents are extracted from PDFs.
@@ -11,7 +11,7 @@ This project implements a RAG pipeline where:
   5. User queries retrieve relevant document sections.
   6. Retrieved context is provided to the LLM to generate grounded answers.
 
-# Architecture
+## Architecture
 ```
 PDF documents
       |
@@ -32,7 +32,7 @@ Groq Llama LLM
 Generated Answer
 ```
 
-# Project Structure
+## Project Structure
 ```
 RAG-mini-project/
 
@@ -72,8 +72,9 @@ RAG-mini-project/
 -Llama 3 LLM
 -HuggingFace Sentence Transformers
 -PyPDF
+---
 
-# Installation
+## Installation
 Clone the repository:
 - git clone <repo url>
 - cd RAG-mini-project
@@ -81,18 +82,18 @@ Clone the repository:
     bash
   pip install -r requirements.txt
 
-# Environment configuration
+## Environment configuration
   Create a '.env' file in the project root:
-    GROQ_API_KEY=<api_key>
+    **GROQ_API_KEY=<api_key>**
 
   The api key is loaded through the configuration module.
 
-  # Running the project:
+## Running the project:
   1. Add PDF documents inside the `data/` folder.
   2. Generate embeddings and create the vector store.
   3. Run the RAG pipeline to ask questions from the documents.
 
- # Example use case
+## Example use case
  The system can answer questions such as:
   - Summarize the uploaded document.
   - Explain a specific concept from the document.
