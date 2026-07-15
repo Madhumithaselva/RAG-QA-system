@@ -1,4 +1,4 @@
-**RAG Course QA system**
+# RAG Course QA system
 A Retrival-Augmented Generation(RAG) system that answers questions about a university course,grounded strictly in official course materials (syllabus, lecture slides, instructions) to reduce hallucination compared to a standard LLM.
 
 **Project Overview**
