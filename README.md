@@ -67,13 +67,13 @@ RAG-mini-project/
 
 ## Technologies used
 
--Python
--LangCHain
--ChromaDB
--Groq API
--Llama 3 LLM
--HuggingFace Sentence Transformers
--PyPDF
+- Python
+- LangCHain
+- ChromaDB
+- Groq API
+- Llama 3 LLM
+- HuggingFace Sentence Transformers
+- PyPDF
 
 ---
 
