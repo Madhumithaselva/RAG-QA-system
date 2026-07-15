@@ -73,6 +73,7 @@ RAG-mini-project/
 -Llama 3 LLM
 -HuggingFace Sentence Transformers
 -PyPDF
+
 ---
 
 ## Installation
