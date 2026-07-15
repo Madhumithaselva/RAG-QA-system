@@ -62,6 +62,7 @@ RAG-mini-project/
 │
 └── README.md
 ```
+---
 
 ## Technologies used
 
