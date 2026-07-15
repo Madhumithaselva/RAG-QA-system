@@ -12,6 +12,7 @@ This project implements a RAG pipeline where:
   6. Retrieved context is provided to the LLM to generate grounded answers.
 
 # Architecture
+```
 PDF documents
       |
 PDF Text Extraction
@@ -29,8 +30,10 @@ Relevant Context
 Groq Llama LLM
       |
 Generated Answer
+```
 
 # Project Structure
+```
 RAG-mini-project/
 │
 ├── data/
@@ -57,6 +60,7 @@ RAG-mini-project/
 ├── testfile.py
 │
 └── README.md
+```
 
 # Technologies used
 -Python
