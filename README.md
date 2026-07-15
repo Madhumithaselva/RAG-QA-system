@@ -63,7 +63,8 @@ RAG-mini-project/
 └── README.md
 ```
 
-# Technologies used
+## Technologies used
+
 -Python
 -LangCHain
 -ChromaDB
