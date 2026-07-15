@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated vector database
+vectorstore/
+
+# OS files
+.DS_Store
+Thumbs.db
